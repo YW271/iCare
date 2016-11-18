@@ -1,0 +1,223 @@
+/*Top ul list settings*/
+
+.container-fluid {
+	background: url("http://www.vital-act.com/images/banner5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+	height: 280px;
+}
+
+#moveDIV {
+    -webkit-animation: mymove 8s infinite;
+    animation: mymove 8s infinite;
+
+}
+
+.title{
+    font-family: 'Reenie Beanie', cursive;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 70px;
+    text-align: left;
+}
+
+@-webkit-keyframes mymove {
+    from {color: white;}
+    to {color: gold;}
+}
+
+@keyframes mymove{
+    from {color: white;}
+    to {color: gold;}
+}
+
+ul.topuser {
+	text-align: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    background: #FFD700;
+    height: 30px;
+}
+
+.topuser li {
+	display: inline;
+}
+
+.topuser li a {
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.button {
+    color: #00008B;
+    background-color: #FFD700;
+    padding: 10px 0px;
+    text-align: center;
+    height: 30px;
+    width: 110px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0px;
+    line-height: 2px;
+    vertical-align: middle;
+    border: none;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+}
+
+.button:hover {
+	background-color: white;
+	color: 	#006400;
+	border: 2px solid #4CAF50;
+}
+
+/*Top navigation bar settings*/
+
+ul.topnav {
+    list-style-type: none;
+    padding: 0;
+    background-color: #b3b3b3;
+    height: 60px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.topnav li {
+    display: inline;
+	float: left;
+}
+
+.topnav li a {
+	text-decoration: none;
+}
+
+.navleft {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    border: none;
+    height: 60px;
+}
+
+.navleft:hover {
+    background-color: #222;
+    color: white;
+    text-transform: uppercase;
+}
+
+.active {
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    height: 60px;
+}
+
+.active:hover {
+    text-transform: uppercase;
+    color: white;
+}
+
+.dropdown {
+	position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 320px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #778899;
+    color: white;
+    text-transform: uppercase;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*navlogo dropdown settings*/
+
+.navlogo {
+	max-height: 60px;
+	resize: 20%;
+	border-radius: 0%;
+	border-right: transparent solid 10px;
+}
+
+.subscribe-now {
+    color: yellow;
+}
+
+.dropdown-content-navlogo {
+	display: none;
+	position: absolute;
+	background-color: #008B8B;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.desc {
+	padding: 15px;
+	text-align: left;
+	color: white;
+    font-size: 18px;
+}
+
+.navlogo:hover {
+	border-left: #FFD700 solid 3px;
+	border-right: #FFD700 solid 3px;
+    transform: rotateY(-180deg);
+}
+
+.dropdown-navlogo:hover .dropdown-content-navlogo{
+	display: block;
+	position: absolute;
+    right: 0px;
+    top: 370px;
+}
+
+
+
+/*Body style settings*/
+
+body {
+    background: url("http://www.designbolts.com/wp-content/uploads/2013/02/Light-aluminum-Grey-Seamless-Pattern-For-Website-Background.jpg");
+    margin: 0;
+}
+
+
+.PageAddon {
+    display: inline-block;
+    float:right;
+}
+
+.content1 {
+	text-align: left;
+	color: white;
+	background: url("http://www.orfd.nl/wp-content/uploads/2016/01/orfd.jpg");
+	background size: cover;
+    background-position: center;
+	height: 800px;
+    font-family:'Roboto', sans-serif;
+}
+
