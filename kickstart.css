@@ -1,5 +1,31 @@
 /*Top ul list settings*/
 
+.topnav,
+.content1,
+.content2,
+.content1b,
+.content3,
+.content4 {
+    position: relative;
+}
+
+.topnav-scrolled,
+header
+ {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+
+.topnav {
+    z-index: 2;
+    box-shadow: 0 2px 3px rgba(0,0,0, .4);
+}
+
+#topnav {
+    margin-bottom: -60px;
+}
+
 .container-fluid {
 	background: url("http://www.vital-act.com/images/banner5.jpg");
 	background-repeat: no-repeat;
@@ -11,7 +37,6 @@
 #moveDIV {
     -webkit-animation: mymove 8s infinite;
     animation: mymove 8s infinite;
-
 }
 
 .title{
@@ -35,8 +60,7 @@ ul.topuser {
 	text-align: right;
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
-    background: #FFD700;
+	padding: 2px;
     height: 30px;
 }
 
@@ -50,32 +74,27 @@ ul.topuser {
     text-decoration: none;
 }
 
-.topuser-logo {
-    max-height: 30px;
-    resize: 20%;
-}
-
 .button {
-    color: #00008B;
-    background-color: #FFD700;
+    color: rgb(189,183,107);
+    background-color: rgba(47,79,79, .4);
     padding: 10px 0px;
     text-align: center;
     height: 30px;
     width: 110px;
     font-size: 14px;
     cursor: pointer;
-    border-radius: 0px;
+    border-radius: 10px;
     line-height: 2px;
     vertical-align: middle;
     border: none;
-    margin: 0 auto;
+    margin-right: 3px;
     letter-spacing: 0.5px;
 }
 
 .button:hover {
-	background-color: white;
-	color: 	#006400;
-	border: 2px solid #4CAF50;
+	background-color: rgba(231, 215, 72, .8);
+	color: rgb(72, 88, 231);
+	border-radius: 15px;
 }
 
 /*Top navigation bar settings*/
@@ -208,50 +227,112 @@ ul.topnav {
 
 .dropdown-content-navlogo {
 	display: none;
-	position: absolute;
-	background-color: #008B8B;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	position: fixed;
+    right: 0px;
+    top: 370px;
+	background-color: rgba(0, 139, 139, .8);
+	box-shadow: 0 0 10px #ccc;
+    border-radius: 2%;
 }
 
 .desc {
-	padding: 15px;
+	padding: 3px;
 	text-align: left;
 	color: white;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .navlogo:hover {
 	border: #FFD700 solid 3px;
     transform: rotateY(-180deg);
+    border-radius: 20%;
 }
 
 .dropdown-navlogo:hover .dropdown-content-navlogo{
-	display: block;
-	position: absolute;
+	display: inline-block;
+	position: fixed;
     right: 0px;
-    top: 400px;
+    top: 370px;
 }
 
 /*Body style settings*/
 
 body {
     background: url("http://www.designbolts.com/wp-content/uploads/2013/02/Light-aluminum-Grey-Seamless-Pattern-For-Website-Background.jpg");
-    margin: 0;
+    margin: 0; /* why adding maring would make header background outflow in the right hand???????????????????????????????????????????????????????????????*/
+    padding-top: 310px;
 }
 
-
-.PageAddon {
-    display: inline-block;
-    float:right;
+main {
+    padding-top: 60px;
 }
 
 .content1 {
-	text-align: left;
-	color: white;
-	background: url("http://www.orfd.nl/wp-content/uploads/2016/01/orfd.jpg");
-	background size: cover;
+    text-align: left;
+    color: white;
+    background: url("http://entertainmentmesh.com/wp-content/uploads/2014/09/minimalist-desktop-wallpaper.png");
+    background size: cover;
     background-position: center;
-	height: 800px;
+    height: 780px;
     font-family:'Roboto', sans-serif;
+    padding: 80px 50px 10px;
 }
+
+.content1b {
+    background: url("https://s-media-cache-ak0.pinimg.com/originals/a1/c8/a8/a1c8a8671adc834789085c6207ba2192.jpg");
+    background size: cover;
+    background-position: center;
+    height: 780px;
+    font-family:'Roboto', sans-serif;
+    padding: 80px 50px 10px;
+    color: white;
+}
+
+#PageAddon {
+    display: inline-block;
+    float:right;
+    padding-top: 6px;
+    padding-right: 2px;
+    padding-bottom: 4px;
+}
+
+.row {
+    background: url(http://2.bp.blogspot.com/-6Dypaue25fg/TdF2bH916nI/AAAAAAAAAQw/sKFpNUFFLiY/s1600/Cloudy-Day-Simple.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+    color: white;
+    height: 780px;
+}
+
+.col-md-4{
+    padding: 40px 50px 10px;
+}
+
+.col-md-8{
+    padding: 80px 50px 10px;
+}
+
+.content3 {
+    background: url("https://bigwindow.files.wordpress.com/2010/03/egg.png");
+    background size: cover;
+    background-position: center;
+    height: 780px;
+    font-family:'Roboto', sans-serif;
+    padding: 80px 50px 10px;
+    color: white;
+}
+
+.content4 {
+    background: url("https://s-media-cache-ak0.pinimg.com/originals/a7/08/0e/a7080ea651579bb9103afc096e5003dc.png");
+    background size: cover;
+    background-position: center;
+    height: 780px;
+    font-family:'Roboto', sans-serif;
+    padding: 80px 50px 10px;
+    color: white;
+}
+
+
 
