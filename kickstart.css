@@ -1,0 +1,338 @@
+/*Top ul list settings*/
+
+.topnav,
+.content1,
+.content2,
+.content1b,
+.content3,
+.content4 {
+    position: relative;
+}
+
+.topnav-scrolled,
+header
+ {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+
+.topnav {
+    z-index: 2;
+    box-shadow: 0 2px 3px rgba(0,0,0, .4);
+}
+
+#topnav {
+    margin-bottom: -60px;
+}
+
+.container-fluid {
+	background: url("http://www.vital-act.com/images/banner5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+	height: 310px;
+}
+
+#moveDIV {
+    -webkit-animation: mymove 8s infinite;
+    animation: mymove 8s infinite;
+}
+
+.title{
+    font-family: 'Reenie Beanie', cursive;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 70px;
+    text-align: left;
+}
+
+@-webkit-keyframes mymove {
+    from {color: white;}
+    to {color: gold;}
+}
+
+@keyframes mymove{
+    from {color: white;}
+    to {color: gold;}
+}
+
+ul.topuser {
+	text-align: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 2px;
+    height: 30px;
+}
+
+.topuser li {
+	display: inline-block;
+}
+
+.topuser li a {
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.button {
+    color: rgb(189,183,107);
+    background-color: rgba(47,79,79, .4);
+    padding: 10px 0px;
+    text-align: center;
+    height: 30px;
+    width: 110px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    line-height: 2px;
+    vertical-align: middle;
+    border: none;
+    margin-right: 3px;
+    letter-spacing: 0.5px;
+}
+
+.button:hover {
+	background-color: rgba(231, 215, 72, .8);
+	color: rgb(72, 88, 231);
+	border-radius: 15px;
+}
+
+/*Top navigation bar settings*/
+
+ul.topnav {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(192, 178, 160);
+    height: 60px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.topnav li {
+    display: inline;
+	float: left;
+}
+
+.topnav li a {
+	text-decoration: none;
+}
+
+.navleft {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    border: none;
+    height: 60px;
+}
+
+.navleft:hover {
+    background-color: #372815;
+    color: white;
+    text-transform: uppercase;
+}
+
+.active {
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    height: 60px;
+}
+
+.active:hover {
+    text-transform: uppercase;
+    color: white;
+}
+
+.dropdown {
+	position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(18, 13, 7, .8);
+    min-width: 320px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0, .2);
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #778899;
+    color: white;
+    text-transform: uppercase;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: rgba(18, 13, 7, .8);
+    min-width: 320px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0, .2);
+}
+
+.dropdown-content2 a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: white;
+}
+
+.dropdown-content2 a:hover {
+    background-color: #778899;
+    color: white;
+    text-transform: uppercase;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+/*navlogo dropdown settings*/
+.navlogotext {
+    padding: 20px 8px;
+    font-family:'Reenie Beanie', cursive;
+    font-size: 23px;
+}
+
+.navlogo {
+	max-height: 60px;
+	resize: 20%;
+	border-radius: 0%;
+	border-right: transparent solid 10px;
+}
+
+.subscribe-now {
+    color: yellow;
+}
+
+.dropdown-content-navlogo {
+	display: none;
+	position: fixed;
+    right: 0px;
+    top: 370px;
+	background-color: rgba(0, 139, 139, .8);
+	box-shadow: 0 0 10px #ccc;
+    border-radius: 2%;
+}
+
+.desc {
+	padding: 3px;
+	text-align: left;
+	color: white;
+    font-size: 17px;
+}
+
+.navlogo:hover {
+	border: #FFD700 solid 3px;
+    transform: rotateY(-180deg);
+    border-radius: 20%;
+}
+
+.dropdown-navlogo:hover .dropdown-content-navlogo{
+	display: inline-block;
+	position: fixed;
+    right: 0px;
+    top: 370px;
+}
+
+/*Body style settings*/
+
+body {
+    background: url("http://www.designbolts.com/wp-content/uploads/2013/02/Light-aluminum-Grey-Seamless-Pattern-For-Website-Background.jpg");
+    margin: 0; /* why adding maring would make header background outflow in the right hand???????????????????????????????????????????????????????????????*/
+    padding-top: 310px;
+}
+
+main {
+    padding-top: 60px;
+}
+
+.content1 {
+    text-align: left;
+    color: white;
+    background: url("http://entertainmentmesh.com/wp-content/uploads/2014/09/minimalist-desktop-wallpaper.png");
+    background size: cover;
+    background-position: center;
+    height: 780px;
+    font-family:'Roboto', sans-serif;
+    padding: 80px 50px 10px;
+}
+
+.content1b {
+    background: url("https://s-media-cache-ak0.pinimg.com/originals/a1/c8/a8/a1c8a8671adc834789085c6207ba2192.jpg");
+    background size: cover;
+    background-position: center;
+    height: 780px;
+    font-family:'Roboto', sans-serif;
+    padding: 80px 50px 10px;
+    color: white;
+}
+
+#PageAddon {
+    display: inline-block;
+    float:right;
+    padding-top: 6px;
+    padding-right: 2px;
+    padding-bottom: 4px;
+}
+
+.row {
+    background: url(http://2.bp.blogspot.com/-6Dypaue25fg/TdF2bH916nI/AAAAAAAAAQw/sKFpNUFFLiY/s1600/Cloudy-Day-Simple.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+    color: white;
+    height: 780px;
+}
+
+.col-md-4{
+    padding: 40px 50px 10px;
+}
+
+.col-md-8{
+    padding: 80px 50px 10px;
+}
+
+.content3 {
+    background: url("https://bigwindow.files.wordpress.com/2010/03/egg.png");
+    background size: cover;
+    background-position: center;
+    height: 780px;
+    font-family:'Roboto', sans-serif;
+    padding: 80px 50px 10px;
+    color: white;
+}
+
+.content4 {
+    background: url("https://s-media-cache-ak0.pinimg.com/originals/a7/08/0e/a7080ea651579bb9103afc096e5003dc.png");
+    background size: cover;
+    background-position: center;
+    height: 780px;
+    font-family:'Roboto', sans-serif;
+    padding: 80px 50px 10px;
+    color: white;
+}
+
+
+
