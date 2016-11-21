@@ -217,8 +217,8 @@ ul.topnav {
 .navlogo {
 	max-height: 60px;
 	resize: 20%;
-	border-radius: 0%;
-	border-right: transparent solid 10px;
+	border-radius: 20%;
+	border: green solid 3px;
 }
 
 .subscribe-now {
@@ -334,5 +334,9 @@ main {
     color: white;
 }
 
-
+.footer {
+    color: navy;
+    text-align: center;
+    font-family:'Reenie Beanie', cursive;
+}
 
