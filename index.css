@@ -1,4 +1,11 @@
+.navbar {
+	margin-bottom: 0;
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
 .container {
+	margin-top: 0;
 	position: relative;
 	width: 100%;
 }
@@ -76,9 +83,6 @@ blockquote {
     -webkit-box-shadow: 0px 0px 30px 0px rgba(232, 0, 0, 0.67);
     -moz-box-shadow:    0px 0px 30px 0px rgba(232, 0, 0, 0.67);
     box-shadow:         0px 0px 30px 0px rgba(232, 0, 0, 0.67);
-}
-.twitter {
-	padding-top: 40%;
 }
 form {
 	margin: 0 auto;
